@@ -1,0 +1,25 @@
+.TodoItem {
+  @apply flex  flex-col shadow py-4 pl-8 pr-4 border-[0.5px] relative cursor-pointer;
+  border-radius: 22px;
+}
+
+/* TodoItemInfoSection */
+.TodoItem__title {
+  @apply font-normal text-lg text-[#6E6A7C];
+}
+
+.TodoItem__description {
+  @apply font-bold text-xl text-[#24252C];
+}
+
+/* TodoItemButtonGroup */
+.TodoItemButtonGroup {
+  @apply flex gap-4 relative;
+}
+.TodoItemButtonGroup__icon {
+  @apply text-3xl;
+}
+
+.TodoItemButtonGroup__circle {
+  @apply w-5 h-5 rounded-full bg-green-700 absolute top-[7px] left-[7px];
+}

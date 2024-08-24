@@ -1,0 +1,14 @@
+html,
+body {
+  @apply bg-white overflow-hidden;
+}
+
+.App {
+  @apply h-screen px-7 relative;
+}
+.App__title-container {
+  @apply justify-center w-full py-7;
+}
+.App__title {
+  @apply text-center text-xl font-bold items-center self-center;
+}
